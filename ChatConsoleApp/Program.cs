@@ -32,7 +32,7 @@ class Program
             while (true)
             {
 
-                Console.Write("Mesaj: ");
+               // Console.Write("Mesaj: ");
                 string message = Console.ReadLine();
 
                 await hubConnection.InvokeAsync("SendMessage", user, message);
