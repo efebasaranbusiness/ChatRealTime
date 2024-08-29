@@ -32,6 +32,8 @@ class Program
             while (true)
             {
 
+                //EMİR KÖRMÜSÜN
+
                // Console.Write("Mesaj: ");
                 string message = Console.ReadLine();
 
